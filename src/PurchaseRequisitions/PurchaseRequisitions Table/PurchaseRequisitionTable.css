@@ -1,0 +1,140 @@
+.td-flex {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 15px;
+  text-align: start;
+}
+
+.td-flex img {
+  display: flex;
+  width: 36px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: green;
+  border-radius: 24px;
+
+}
+
+/* all request css */
+.action-column img {
+  cursor: pointer;
+}
+
+/* all request css */
+
+
+
+/* ///////////////////////////// */
+
+/* Table */
+.PurchaseRequisitionTable {
+  width: 100%;
+  flex-shrink: 0;
+  padding-left: 0px;
+  /* backgroundColor: #FFF; */
+  filter: drop-shadow(0px 10px 13px rgba(17, 38, 146, 0.05));
+}
+
+/* Table Header */
+th {
+  text-align: center;
+  align-items: center;
+  color: var(--fonts-primary-variant, #6E6893);
+  font-family: Lexend;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1rem;
+  max-width: 250px;
+}
+
+/* Table Data */
+td {
+  text-align: center;
+  color: var(--fonts-primary, #25213B);
+  font-family: Lexend;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  height: 100%;
+
+  width: 250px;
+  line-height: 1.5rem;
+}
+span{
+  display: inline;
+  justify-content: center;
+  width: 100px;
+  text-align: center;
+
+}
+
+/* Table Data with Flex Display */
+.tdFlex {
+  display: flex;
+  gap: 23px;
+}
+
+/* Table Data with Flex Display for Image */
+.tdFlexImg {
+  display: flex;
+  width: 36px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+/* Table Data with Flex Display for Paragraph */
+.tdFlexP {
+  color: var(--fonts-primary, #25213B);
+  font-family: Lexend;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+/* Table Row */
+tr {
+  height: 60px;
+  flex-shrink: 0;
+}
+
+/* Image */
+img {
+  width: 36px;
+  height: 36px;
+}
+
+/* Other Table Data Properties */
+.holdData {}
+
+/* Table Data at the End of Row */
+.tdEnd {
+  width: 40px;
+  align-items: center;
+  color: var(--fonts-primary-variant, #6E6893);
+  font-family: Lexend;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1rem;
+  text-align: center;
+}
+
+.action-column {
+  width: 50px;
+}
+
+.action-column {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+/* Other Table Data Width Properties */
+.tdWidth {}

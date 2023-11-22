@@ -1,0 +1,50 @@
+.purchaseRequisitionsPage {
+    width: 100%;
+    overflow: scroll;
+    padding: 40px 40px;
+    height: 95.83%;
+}
+
+.purchaseRequisitionsPageHeading h2 {
+    color: var(--background-primary-inverse, #1A212B);
+
+    /* Title/Large */
+    font-family: Lexend;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+    /* 109.091% */
+}
+
+/* purchase Requisitions cards */
+.purchaseRequisitionscards {
+    gap: 41px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 32px;
+    border-radius: 10px;
+}
+
+/* request lists  */
+.requestLists {
+    margin-top: 32px;
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+
+    background: #FFF;
+    filter: drop-shadow(0px 10px 13px rgba(17, 38, 146, 0.05));
+
+    border-radius: 10px;
+    padding: 12px 23px;
+}
+
+.requestListsTop{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+/* request lists  */

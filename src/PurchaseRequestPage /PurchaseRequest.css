@@ -1,0 +1,135 @@
+.PurchaseRequest {
+    width: 100%;
+    overflow: scroll;
+    padding: 40px 40px;
+    height: 95.83%;
+}
+
+.PurchaseHeadings {
+    display: flex;
+    gap: 10px;
+}
+
+.PurchaseHeadingOne {
+    color: var(--foreground-secondary, #728197);
+    font-family: Lexend;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    /* 109.091% */
+}
+
+.PurchaseHeadingTwo {
+    color: var(--background-interactive, #5C17E5);
+
+    /* Title/Large */
+    font-family: Lexend;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+    /* 109.091% */
+}
+
+.PurchaseHeadings img {
+    width: 17px;
+    height: auto;
+}
+
+.requesterApprove {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 33px;
+}
+
+/* order line tab;e */
+.OrderLineTable {
+    margin-top: 32px;
+    width: 100%;
+}
+
+.OrderLineTableHeading h2 {
+    color: var(--type-dark, #3A3541);
+    text-align: center;
+    text-align: start;
+    /* Title/Large */
+    font-family: Lexend;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+    /* 109.091% */
+}
+
+.OrderLineTableWrapper {
+    margin-top: 24px;
+}
+
+/* comment secton */
+.commentSection {
+    width: 100%;
+    margin-top: 32px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.commentWrapper h2,
+.orderLineWrapper h2 {
+    color: var(--type-dark, #3A3541);
+    text-align: start;
+
+    /* Title/Large */
+    font-family: Lexend;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+
+    /* 109.091% */
+}
+
+.commentWrapper {
+    width: 534px;
+    gap: 18px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.comment {
+    width: 100%;
+    height: 545px;
+    flex-shrink: 0;
+
+    border-radius: 12px;
+    background: #FFF;
+
+    /* card effect */
+    box-shadow: 0px 10px 13px 0px rgba(17, 38, 146, 0.05);
+}
+
+.orderLineWrapper {
+    width: 988px;
+    height: 275px;
+    flex-shrink: 0;
+    gap: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.OrderLine2 {
+    width: 100%;
+
+    height: 275px;
+    flex-shrink: 0;
+
+    border-radius: 14px;
+    background: #FFF;
+
+    /* card effect */
+    box-shadow: 0px 10px 13px 0px rgba(17, 38, 146, 0.05);
+}

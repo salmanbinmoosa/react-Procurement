@@ -1,0 +1,60 @@
+.prio {
+    /* display: inline-block; */
+
+    /* align-items: center; */
+    column-gap: 0.7rem;
+    /* background-color: red; */
+    padding: 0px;
+    margin: 0px;
+}
+
+.prio h4 {
+    display: inline;
+    padding-left: 0.7rem;
+}
+
+.prio img {
+    width: 0.875rem;
+    height: 0.75rem;
+
+    flex-shrink: 0;
+}
+
+.medium-head {
+    color: #FFAB2D;
+
+    /* Body/Body 2 */
+    font-family: Roboto;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.0625rem;
+    /* 121.429% */
+    letter-spacing: 0.0275rem;
+}
+
+.high-head {
+    color: #00B929;
+
+    /* Body/Body 2 */
+    font-family: Roboto;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.0625rem;
+    /* 121.429% */
+    letter-spacing: 0.0275rem;
+}
+
+.low-head {
+    color: var(--Red, #FF2D2E);
+
+    /* Body/Body 2 */
+    font-family: Roboto;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.0625rem;
+    /* 121.429% */
+    letter-spacing: 0.0275rem;
+}
